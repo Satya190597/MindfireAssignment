@@ -14,7 +14,6 @@ body
     flex: 1;
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
     height: 200px;
 }
 .table-container
@@ -32,14 +31,6 @@ body
     background-color: #21618C;
     color: #FDFEFE;
 }
-@media screen and (max-width: 600px) {
-    .table-container table thead
-    {
-        font-size: 15px;
-        background-color: #21618C;
-        color: #FDFEFE;
-    }
-}
 .table-container table thead tr th
 {
     padding: 1%;
@@ -47,13 +38,6 @@ body
 .table-container table tbody
 {
     font-size: 20px;
-}
-@media screen and (max-width: 600px)
-{
-   .table-container table tbody
-    {
-        font-size: 13px;
-    } 
 }
 .table-container table tbody tr:nth-child(even)
 {
@@ -70,13 +54,24 @@ body
 .username
 {
     flex: 8;
-    border: 2px solid red;
+    background-color: #F2F3F4;
 }
 .username ul
 {
     list-style-type: none;
     font-size: 25px;
 }
+.userimage
+{
+    flex: 1;
+    text-align: right;
+    padding: 2px;
+}
+/* ADD MEDIA CONTROLS (FOR RESPONSIVE DESIGN) */
+
+/*
+    
+*/
 @media screen and (max-width: 1024px)
 {
     .username
@@ -108,10 +103,14 @@ body
     {
         height: 400px;
     }
-}
-.userimage
-{
-    flex: 1;
-    text-align: right;
-    padding: 2px;
+    .table-container table tbody
+    {
+        font-size: 13px;
+    } 
+    .table-container table thead
+    {
+        font-size: 15px;
+        background-color: #21618C;
+        color: #FDFEFE;
+    }
 }

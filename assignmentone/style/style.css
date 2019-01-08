@@ -1,0 +1,117 @@
+html
+{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.detail-container
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    height: 200px;
+}
+.table-container
+{
+    flex: 1;
+}
+.table-container table
+{
+    width: 100%;
+    text-align: center;
+}
+.table-container table thead
+{
+    font-size: 22px;
+    background-color: #21618C;
+    color: #FDFEFE;
+}
+@media screen and (max-width: 600px) {
+    .table-container table thead
+    {
+        font-size: 15px;
+        background-color: #21618C;
+        color: #FDFEFE;
+    }
+}
+.table-container table thead tr th
+{
+    padding: 1%;
+}
+.table-container table tbody
+{
+    font-size: 20px;
+}
+@media screen and (max-width: 600px)
+{
+   .table-container table tbody
+    {
+        font-size: 13px;
+    } 
+}
+.table-container table tbody tr:nth-child(even)
+{
+    background-color: #B0BEC5;
+}
+.table-container table tbody tr:nth-child(odd)
+{
+    background-color: #ECEFF1;
+}
+.table-container table tbody tr td
+{
+    padding: 1%;
+}
+.username
+{
+    flex: 8;
+    border: 2px solid red;
+}
+.username ul
+{
+    list-style-type: none;
+    font-size: 25px;
+}
+@media screen and (max-width: 1024px)
+{
+    .username
+    {
+        flex: 4;
+        border: 2px solid red;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .username
+    {
+        flex: 1;
+        border: 2px solid red;
+        height: 200px;
+    }
+    .detail-container
+    {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .username ul
+    {
+        list-style-type: none;
+        font-size: 15px;
+    }
+    .detail-container
+    {
+        height: 400px;
+    }
+}
+.userimage
+{
+    flex: 1;
+    text-align: right;
+    padding: 2px;
+}

@@ -34,9 +34,58 @@ body
     height: 200px;
     background-color: skyblue;
 }
+.inner-container-form
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
 .field-group
 {
-    
+    flex: 1;
+    display: flex;
+    background-color: antiquewhite;
+}
+.label
+{
+    flex: 1;
+}
+.input
+{
+    flex: 3;
+}
+.label-name
+{
+    flex: 1;
+}
+.input-fname
+{
+    flex: 1;
+}
+.input-mname
+{
+    flex: 1;
+}
+.input-lname
+{
+    flex: 1;
+}
+.field-group-personal
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.input-checkbox
+{
+    flex: 1;
+    display: flex;
+    background-color: yellow;
+}
+.input-checkbox div
+{
+    flex: 1;
 }
 @media screen and (max-width: 600px)
 {

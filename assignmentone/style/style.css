@@ -1,3 +1,8 @@
+/*
+    STYLE SHEET OF FIRST ASSIGNMENT
+    Author : Satya Prakash Nandy
+    Layout Used :  Flex Box (Responsive Design)
+*/
 html
 {
     height: 100%;
@@ -7,8 +12,14 @@ body
 {
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: arial;
 }
+small
+{
+    color: #21618C;
+    font-weight: bolder;
+}
+/* Working With Detail Container */
 .detail-container
 {
     flex: 1;
@@ -16,6 +27,8 @@ body
     flex-direction: row;
     height: 200px;
 }
+
+/* Working With Tabels */
 .table-container
 {
     flex: 1;
@@ -51,6 +64,8 @@ body
 {
     padding: 1%;
 }
+
+/* Working With User Name */
 .username
 {
     flex: 8;
@@ -61,16 +76,23 @@ body
     list-style-type: none;
     font-size: 25px;
 }
+pre
+{
+    font-family: arial;
+    font-weight: bolder;
+    color: #21618C;
+}
 .userimage
 {
     flex: 1;
     text-align: right;
     padding: 2px;
+    background-color: #F2F3F4;
 }
 /* ADD MEDIA CONTROLS (FOR RESPONSIVE DESIGN) */
 
 /*
-    
+    Media Device 1024 X 1366
 */
 @media screen and (max-width: 1024px)
 {
@@ -80,6 +102,9 @@ body
         border: 2px solid red;
     }
 }
+/*
+    Media Device 600 X 720 
+*/
 @media screen and (max-width: 600px)
 {
     .username

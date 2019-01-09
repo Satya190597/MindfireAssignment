@@ -6,12 +6,16 @@ html
 }
 body
 {
-    height: 100px;
     background-color: #F2F3F4;
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding: 0px;
+}
+.wrapper
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .inner-container-banner
 {
@@ -52,6 +56,7 @@ body
 .label
 {
     flex: 1;
+    margin-top: 1%;
 }
 .input
 {
@@ -156,9 +161,19 @@ label
     border: none;
     font-size: 18px;
 }
+.submit-button:hover
+{
+    background-color: #2874A6;
+}
 .main-banner
 {
     margin: 0px;
+}
+sup
+{
+    font-weight: bolder;
+    color: red;
+    font-size: 15px;
 }
 @media screen and (max-width: 600px)
 {

@@ -182,6 +182,16 @@ sup
     color: red;
     font-size: 15px;
 }
+input
+{
+    font-weight: bolder;
+    padding: 1%;
+    color: #283747;
+}
+input:hover
+{
+    background-color: #FFFDE7;
+}
 /* ADD MEDIA CONTROLS (FOR RESPONSIVE DESIGN) */
 
 /*

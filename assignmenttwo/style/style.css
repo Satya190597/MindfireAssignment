@@ -1,3 +1,8 @@
+/*
+    STYLE SHEET FOR ASSIGNMENT TWO
+    Author : Satya Prakash Nandy
+    Layout Used :  Flex Box (Responsive Design)
+*/
 html
 {
     width: 100%;
@@ -124,6 +129,7 @@ label
 {
     flex: 1;
     display: flex;
+    padding-left: 5%;
 }
 .input-checkbox div
 {
@@ -131,7 +137,7 @@ label
     display: flex;
     font-family: arial;
     font-weight: bolder;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -176,6 +182,11 @@ sup
     color: red;
     font-size: 15px;
 }
+/* ADD MEDIA CONTROLS (FOR RESPONSIVE DESIGN) */
+
+/*
+    Media Device 600 X 720 
+*/
 @media screen and (max-width: 600px)
 {
     .inner-container-banner
@@ -228,6 +239,9 @@ sup
         height: 50%;
     }
 }
+/*
+    Media Device 768 X ... 
+*/
 @media screen and (max-width: 768px)
 {
     .inner-container-banner
@@ -265,6 +279,9 @@ sup
         padding-left: 5%;
     }
 }
+/*
+    Media Device 500 X ... 
+*/
 @media screen and (max-width: 500px)
 {
     .inner-container-banner

@@ -16,6 +16,7 @@ body
 {
     margin-top: 2%;
     margin-bottom: 2%;
+    background-color: white;
 }
 .inner-container-banner
 {
@@ -189,6 +190,43 @@ sup
     {
         width: 500px;
     }
+    .inner-banner h1
+    {
+        font-size: 25px;
+    }
+    .field-group
+    {
+        flex-direction: column;
+    }
+    .field-group
+    {
+        flex-direction: column;
+    }
+    .input
+    {
+        justify-content: center;
+    }
+    .input-fname
+    {
+        justify-content: center;
+    }
+    .input-mname
+    {
+        justify-content: center;
+    }
+    .input-lname
+    {
+        justify-content: center;
+    }
+    .inner-container-banner
+    {
+        flex-direction: column;
+    }
+    .inner-image
+    {
+        width: 50%;
+        height: 50%;
+    }
 }
 @media screen and (max-width: 768px)
 {
@@ -204,6 +242,28 @@ sup
     {
         width: 700px;
     }
+    .field-group-button
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .submit-button
+    {
+        font-size: 13px;
+        width: 30%;
+        height: 30px;
+    }
+    .input-checkbox
+    {
+        flex-direction: column;
+    }
+    .input-checkbox div
+    {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 5%;
+    }
 }
 @media screen and (max-width: 500px)
 {
@@ -218,5 +278,60 @@ sup
     .main-banner
     {
         width: 300px;
+    }
+    .inner-banner h1
+    {
+        font-size: 20px;
+    }
+    .field-group
+    {
+        flex-direction: column;
+    }
+    .input
+    {
+        justify-content: center;
+    }
+    .input-fname
+    {
+        justify-content: center;
+    }
+    .input-mname
+    {
+        justify-content: center;
+    }
+    .input-lname
+    {
+        justify-content: center;
+    }
+    .inner-container-banner
+    {
+        flex-direction: column;
+    }
+    .inner-image
+    {
+        width: 50%;
+        height: 50%;
+    }
+    .field-group-button
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .submit-button
+    {
+        font-size: 13px;
+        width: 30%;
+        height: 30px;
+    }
+    .input-checkbox
+    {
+        flex-direction: column;
+    }
+    .input-checkbox div
+    {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 5%;
     }
 }
